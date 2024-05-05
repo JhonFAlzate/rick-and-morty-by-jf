@@ -104,3 +104,15 @@
    flex-wrap: wrap;
 
 }
+@media screen and (min-width: 940px) {
+   .card__container{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      flex-wrap: wrap;
+      justify-items: center;
+      align-content: space-evenly;
+      gap: 5em 0em;
+      
+
+   }
+}
