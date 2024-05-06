@@ -36,6 +36,7 @@ function App() {
          <img className="header__img2" src="/RickandMorty_title.png" alt="" />
        
       </header>
+      
 
       <form className="header__form" onSubmit={hadleSubmit}>
             <input
